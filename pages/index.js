@@ -1,5 +1,8 @@
-var NewComponent = React.createClass({
-  render: function() {
+import Head from 'next/head';
+import Image from 'next/image';
+import style from '../style/Home.module.css';
+
+export default function Home () {
     return (
       <div>
         <title>W3.CSS Template</title>
@@ -77,4 +80,4 @@ var NewComponent = React.createClass({
       </div>
     );
   }
-});
+
