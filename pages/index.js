@@ -1,8 +1,7 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import style from '../style/Home.module.css';
+import styles from '../styles/Home.module.css';
 
-export default function Home () {
+export default function Home() {
     return (
       <div>
         <title>W3.CSS Template</title>
