@@ -2,8 +2,8 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
-    return (
-     <div>
+  return (
+    <div>
         <title>W3.CSS Template</title>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,7 +20,7 @@ export default function Home() {
         <div className="w3-top">
           <div className="w3-white w3-xlarge" style={{maxWidth: '1200px', margin: 'auto'}}>
             <div className="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
-            <img src="img/logo1.png" style={{width: '10%'}} />
+            <img src="/logo1.png" style={{width: '10%'}} />
             <div className="w3-center w3-padding-16">Restaurant</div>
           </div>
         </div>
@@ -29,39 +29,39 @@ export default function Home() {
           {/* First Photo Grid*/}
           <div className="w3-row-padding w3-padding-16 w3-center" id="food">
             <div className="w3-quarter">
-              <img src="img/banana frita.png" alt="Batata frita" style={{width: '100%'}} />
+              <img src="/banana frita.png" alt="Batata frita" style={{width: '100%'}} />
               <h3>Banana Frita</h3>
             </div>
             <div className="w3-quarter">
-              <img src="img/lasanha.jpeg" alt="Lasanha" style={{width: '78%'}} />
+              <img src="/lasanha.jpeg" alt="Lasanha" style={{width: '78%'}} />
               <h3>Lasanha a Bolonhesa</h3>
             </div>
             <div className="w3-quarter">
-              <img src="img/Macarrão.jpeg" alt="Macarrão" style={{width: '84%'}} />
+              <img src="/Macarrão.jpeg" alt="Macarrão" style={{width: '84%'}} />
               <h3>Macarrão</h3>
             </div>
             <div className="w3-quarter">
-              <img src="img/Pernil de cordeiro.jpeg" alt="Pernil" style={{width: '88%'}} />
+              <img src="/Pernil de cordeiro.jpeg" alt="Pernil" style={{width: '88%'}} />
               <h3>Pernil de cordeiro</h3>
             </div>
           </div>
           {/* Second Photo Grid*/}
           <div className="w3-row-padding w3-padding-16 w3-center">
             <div className="w3-quarter">
-              <img src="img/ratatoullie.jpeg" alt="Ratatoullie" style={{width: '90%'}} />
+              <img src="/ratatoullie.jpeg" alt="Ratatoullie" style={{width: '90%'}} />
               <h3>Ratatoullie</h3>
             </div>
             <div className="w3-quarter">
-              <img src="img/ensopado de carne caseiro.jpeg" alt="Ensopado" style={{width: '105%'}} />
+              <img src="/ensopado de carne caseiro.jpeg" alt="Ensopado" style={{width: '105%'}} />
               <h3>Ensopado</h3>
             </div>
             <div className="w3-quarter">
-              <img src="img/crepe.jpeg" alt="Crepe" style={{width: '87%'}} />
+              <img src="/crepe.jpeg" alt="Crepe" style={{width: '87%'}} />
               <h3>Crepe</h3>
             </div>
             <div className="w3-quarter">
-              <img src="img/petti.jpg" alt="Petti Gateou" style={{width: '105%'}} />
-              <h3>Petti Gateou</h3>
+              <img src="/petti.jpg" alt="Petti Gateou" style={{width: '105%'}} />
+              <h3>Petti Gateou </h3>
             </div>
           </div>
           {/* Pagination */}
@@ -79,7 +79,7 @@ export default function Home() {
           {/* About Section */}
           <div className="w3-container w3-padding-32 w3-center">  
             <h3>Meu restaurante</h3><br />
-            <img src="img/RESTAURANTE.jpg" alt="Me" className="w3-image" style={{display: 'block', margin: 'auto'}} width={800} height={533} />
+            <img src="/RESTAURANTE.jpg" alt="Me" className="w3-image" style={{display: 'block', margin: 'auto'}} width={800} height={533} />
             <div className="w3-padding-32">
               <h4><b>Venha nos conhecer!</b></h4>
               <h6><i>As melhores lembranças são feitas de: Boa comida, bons amigos e bons momentos!
@@ -95,7 +95,7 @@ export default function Home() {
                 <h3>BLOG POSTS</h3>
                 <ul className="w3-ul w3-hoverable">
                   <li className="w3-padding-16">
-                    <img src="img/LOGO INSTA.png" className="w3-left w3-margin-right" style={{width: '50px'}} />
+                    <img src="/LOGO INSTA.png" className="w3-left w3-margin-right" style={{width: '50px'}} />
                     <span className="w3-large">@Restaurant_food</span><br />
                     <span>Nos siga para ficar dentro de todas as novidades!</span>
                   </li>
@@ -115,6 +115,5 @@ export default function Home() {
             {/* End page content */}
           </i></div><i>
         </i></div>
-    );
-  }
-
+  );
+}
