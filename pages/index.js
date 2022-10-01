@@ -33,7 +33,7 @@ export default function Home() {
               <h3>Banana Frita</h3>
             </div>
             <div className="w3-quarter">
-              <img src="/lasanha.jpeg" alt="Lasanha" style={{width: '78%'}} />
+              <img src="/lasanha.jpg" alt="Lasanha" style={{width: '78%'}} />
               <h3>Lasanha a Bolonhesa</h3>
             </div>
             <div className="w3-quarter">
@@ -41,22 +41,22 @@ export default function Home() {
               <h3>Macarrão</h3>
             </div>
             <div className="w3-quarter">
-              <img src="/Pernil de cordeiro.jpeg" alt="Pernil" style={{width: '88%'}} />
+              <img src="/Pernil de cordeiro.jpg" alt="Pernil" style={{width: '88%'}} />
               <h3>Pernil de cordeiro</h3>
             </div>
           </div>
           {/* Second Photo Grid*/}
           <div className="w3-row-padding w3-padding-16 w3-center">
             <div className="w3-quarter">
-              <img src="/ratatoullie.jpeg" alt="Ratatoullie" style={{width: '90%'}} />
+              <img src="/ratatoullie.jpg" alt="Ratatoullie" style={{width: '90%'}} />
               <h3>Ratatoullie</h3>
             </div>
             <div className="w3-quarter">
-              <img src="/ensopado de carne caseiro.jpeg" alt="Ensopado" style={{width: '105%'}} />
+              <img src="/ensopado de carne caseiro.jpg" alt="Ensopado" style={{width: '105%'}} />
               <h3>Ensopado</h3>
             </div>
             <div className="w3-quarter">
-              <img src="/crepe.jpeg" alt="Crepe" style={{width: '87%'}} />
+              <img src="/crepe.jpg" alt="Crepe" style={{width: '87%'}} />
               <h3>Crepe</h3>
             </div>
             <div className="w3-quarter">
